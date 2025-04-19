@@ -1,0 +1,191 @@
+html {
+  scroll-behavior: smooth;
+}
+.main-card:hover {
+  transform: scale(1.01);
+  transition: transform 0.3s ease-in-out;
+  box-shadow: 10px 10px 5px -7px rgba(0, 0, 0, 0.75);
+}
+
+/*  */
+.main-card .col-md-4 {
+  display: flex;
+  justify-content: center;
+  padding: 0 10px; /* Adjust padding as needed */
+}
+
+.main-card img {
+  max-width: 100%;
+  height: auto;
+  max-height: 100%; /* Ensure image height doesn't exceed container height */
+  object-fit: contain; /* Maintain image aspect ratio */
+}
+/* img  */
+.circular-image {
+  width: 50px; 
+  height: 50px;
+  border-radius: 50%; 
+  overflow: hidden; 
+  margin-right: 1rem;
+}
+
+.circular-image img {
+  width: 100%; 
+  height: auto; 
+  object-fit: cover;
+}
+
+/* home btn */
+
+.tg {
+  display:block;
+  overflow:hidden;
+  box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  text-align:center;
+}
+.tg button{
+ z-index:1;
+  position:relative;
+  display:inline-block;
+  height:50px;
+  padding:0 20px;
+  background-color:#717b85;
+  border:1px solid #6e7881;
+  color:#fff;
+  font-size:20px;
+  font-weight:500;
+  line-height:48px;
+  text-decoration:none;
+  text-shadow:0 0 2px rgba(0,0,0,0.3);
+  box-shadow:0 1px 0 #e5e5e5;
+  -webkit-box-shadow:0 1px 0 #e5e5e5;
+  -moz-box-shadow:0 1px 0 #e5e5e5;
+  box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  -webkit-box-sizing:border-box;
+  -moz-box-sizing:border-box;
+  animation-fill-mode:both;
+  -webkit-animation-fill-mode:both;
+}
+.tg button:hover   {
+  animation:bounceEx3 1.5s ease;
+  -webkit-animation:bounceEx3 1.5s ease;
+  transform-origin:bottom;
+  -webkit-transform-origin:bottom;
+}
+
+@keyframes bounceEx3 {
+0% {
+ transform: skewX(0deg);
+  -webkit-transform: skewX(0deg);
+}
+10% {
+ transform: skewX(-30deg);
+  -webkit-transform: skewX(-30deg);
+}
+20% {
+ transform: skewX(30deg);
+  -webkit-transform: skewX(30deg);
+}
+30% {
+ transform: skewX(-20deg);
+  -webkit-transform: skewX(-20deg);
+}
+40% {
+ transform: skewX(20deg);
+  -webkit-transform: skewX(20deg);
+}
+50% {
+ transform: skewX(-15deg);
+  -webkit-transform: skewX(-15deg);
+}
+60% {
+ transform: skewX(15deg);
+  -webkit-transform: skewX(15deg);
+}
+70% {
+ transform: skewX(-5deg);
+  -webkit-transform: skewX(-5deg);
+}
+85%,100% {
+ transform: skewX(0deg);
+  -webkit-transform: skewX(0deg);
+}}
+@-webkit-keyframes bounceEx3 {
+0% {
+ transform: skewX(0deg);
+  -webkit-transform: skewX(0deg);
+}
+10% {
+ transform: skewX(-30deg);
+  -webkit-transform: skewX(-30deg);
+}
+20% {
+ transform: skewX(30deg);
+  -webkit-transform: skewX(30deg);
+}
+30% {
+ transform: skewX(-20deg);
+  -webkit-transform: skewX(-20deg);
+}
+40% {
+ transform: skewX(20deg);
+  -webkit-transform: skewX(20deg);
+}
+50% {
+ transform: skewX(-15deg);
+  -webkit-transform: skewX(-15deg);
+}
+60% {
+ transform: skewX(15deg);
+  -webkit-transform: skewX(15deg);
+}
+70% {
+ transform: skewX(-5deg);
+  -webkit-transform: skewX(-5deg);
+}
+85%,100% {
+ transform: skewX(0deg);
+  -webkit-transform: skewX(0deg);
+}}
+
+
+/* SweetAlert2 Button Color Fixes */
+.swal2-styled.swal2-confirm {
+  background-color: #28a745 !important;
+  border-left-color: #28a745 !important;
+  border-right-color: #28a745 !important;
+}
+
+.swal2-styled.swal2-confirm:focus {
+  box-shadow: 0 0 0 3px rgba(40, 167, 69, 0.5) !important;
+}
+
+.swal2-styled.swal2-cancel {
+  background-color: #6c757d !important;
+  border-left-color: #6c757d !important;
+  border-right-color: #6c757d !important;
+}
+
+.swal2-styled.swal2-cancel:focus {
+  box-shadow: 0 0 0 3px rgba(108, 117, 125, 0.5) !important;
+}
+
+.swal2-styled.swal2-danger {
+  background-color: #dc3545 !important;
+  border-left-color: #dc3545 !important;
+  border-right-color: #dc3545 !important;
+}
+
+.swal2-styled.swal2-danger:focus {
+  box-shadow: 0 0 0 3px rgba(220, 53, 69, 0.5) !important;
+}
+
+/* Make sure SweetAlert2 has proper z-index */
+.swal2-container {
+  z-index: 1060 !important; /* Higher than Bootstrap modals */
+}
+/*  */
