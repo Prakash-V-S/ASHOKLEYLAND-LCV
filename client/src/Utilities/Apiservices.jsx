@@ -7,7 +7,7 @@ import axios from "axios"
 // const API_BASE_URL = 'http://localhost:5000/api' ;
 
 // render app
-const API_BASE_URL = 'https://ashokleyland-lcv.onrender.com' ;
+const API_BASE_URL = 'https://ashokleyland-lcv.onrender.com/api' ;
 
 export const axiosService = axios.create({
     baseURL:API_BASE_URL,
