@@ -26,7 +26,7 @@ function App() {
   <div className="relative flex flex-col min-h-screen">
     {/* Background image with opacity */}
     <img
-      src={{truckPhoto}}
+      src={truckPhoto}
       alt="Background"
       className="absolute inset-0 w-full h-full object-cover opacity-50 z-0"
     />
