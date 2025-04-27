@@ -28,14 +28,14 @@ const Dashboard = () => {
     <div className="py-4 mx-2">
       {loading ? (
         <div className="flex flex-col items-center">
-          <img
+          {/* <img
             className="w-52"
             // src="src/assets/truck.gif"
             src="https://cdn.dribbble.com/users/1238723/screenshots/4794365/loading.gif"
             alt="Loading..."
-          />
+          /> */}
           <h1 className="font-bold text-lg">
-            Loading ...!
+            Loading ... 🚚!
           </h1>
         </div>
       ) : users.length === 0 ? (
