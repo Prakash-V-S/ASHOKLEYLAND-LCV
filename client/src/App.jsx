@@ -14,6 +14,7 @@ import Home from "./Components/Home";
 import Details from "./Components/Details";
 import Edit from "./Components/Edit";
 import Swal from 'sweetalert2';
+import truckPhoto from './assets/truckPhoto.png'
 
 
 function App() {
@@ -25,7 +26,7 @@ function App() {
   <div className="relative flex flex-col min-h-screen">
     {/* Background image with opacity */}
     <img
-      src="src/assets/truckPhoto.png"
+      src={{truckPhoto}}
       alt="Background"
       className="absolute inset-0 w-full h-full object-cover opacity-50 z-0"
     />

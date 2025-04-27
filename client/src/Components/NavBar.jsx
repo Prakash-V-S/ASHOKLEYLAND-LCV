@@ -3,6 +3,7 @@ import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import { NavLink } from 'react-router-dom';
+import ashokleylandLogo from '../assets/ASHOKLEY.NS-ccd24b88.png'
 
 
 function NavBar() {
@@ -12,7 +13,7 @@ function NavBar() {
       <Container className="mx-4">
       <Navbar.Brand href="#home">
             <img
-              src={'src/assets/ASHOKLEY.NS-ccd24b88.png'}
+              src={ashokleylandLogo}
               width="50"
               height="2000"
               className="d-inline-block align-top "

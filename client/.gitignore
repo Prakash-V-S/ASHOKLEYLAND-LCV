@@ -22,7 +22,11 @@ pnpm-debug.log*
 .env.production
 
 # Dependencies
-node_modules/
+/node_modules
+dist
+/dist
+.env
+
 /.pnp
 .pnp.js
 
